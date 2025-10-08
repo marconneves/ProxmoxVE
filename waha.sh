@@ -7,6 +7,7 @@ source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxV
 # Source: https://waha.devlike.pro/
 
 APP="WAHA"
+var_install="NO"
 var_tags="${var_tags:-automation,messaging}"
 var_cpu="${var_cpu:-2}"
 var_ram="${var_ram:-2048}"
